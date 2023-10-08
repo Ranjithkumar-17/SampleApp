@@ -82,7 +82,7 @@ public class TestController {
 	}
 
 	
-	//Recursion  method
+	//Recursion  method to sub json
 	public static void generateSubJson(JsonNode jsonObject, String jsonKey) {
 
 		StringBuffer ReqResStr = new StringBuffer("\"" + jsonKey + "Dtls\":{\"type\":\"object\",\"properties\":{");
