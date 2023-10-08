@@ -35,11 +35,6 @@ public class TestController {
 
 		JsonNode json = objMapper.readTree(jsonContent);
 
-//      // Convert JsonNode to YAML string		
-
-//         String yamlString = yamlMapper.writeValueAsString(json);
-//         System.out.println("yaml format  : "+yamlString);
-
 		
 		StringBuffer schemaProp = new StringBuffer("\"REQUEST\":{\"type\":\"object\",\"properties\":{");
 		json.fields().forEachRemaining(entry -> {
