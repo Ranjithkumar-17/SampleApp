@@ -81,6 +81,8 @@ public class TestController {
 		return yamlSchemaProp + " " + yamlSchemaSubProp;
 	}
 
+	
+	//Recursion  method
 	public static void generateSubJson(JsonNode jsonObject, String jsonKey) {
 
 		StringBuffer ReqResStr = new StringBuffer("\"" + jsonKey + "Dtls\":{\"type\":\"object\",\"properties\":{");
